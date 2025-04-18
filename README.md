@@ -1,20 +1,70 @@
-# ProyectoHospital- Allison Acosta
+# Getting Started with Create React App
 
-Modulo 6 - Entrega Final
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. Manifiesto: Se agrega un archivo manifest.json en la carpeta public
-   Adicionalmente se crea la carpeta icons con iconos del hospital en 512 y 128 px.
-2. Integración de Service Worker para Gestión Avanzada de Caché:
-   -CacheFirst: Para archivos estáticos como CSS, JS e imágenes. Primero se busca en la caché y, si no está, se hace una solicitud a la red.
-   -NetworkFirst: Para solicitudes API. Primero se intenta obtener los datos de la red y, si falla, se usa la caché.
-   -Stale-While-Revalidate: Para contenido mixto. Se sirve la respuesta de la caché mientras se actualiza en segundo plano.
-3. Se notifica al usuario si hay cambios. Se modifica el main.jsx para eso
+## Available Scripts
 
-4. Acceso a perifericos del sistema operativo.
+In the project directory, you can run:
 
-- Se agrega la api de georeferenciacion.
-- Al ingresar a ReservarCita, se muestra un mensaje en conosola con la informacion de referencia del usuario.
-- Se edita AppointmentForm.tsx
+### `npm start`
 
-5. Consumo de API externa para datos medicos (PENDIENTE)
-6. Pruebas de rendimiento: Se adjuntan los archivos Ligthhouse en la carpeta documentos.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
