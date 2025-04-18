@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ProyectoHospitalApp/static/css/main.f855e6bc.css",
+    "main.js": "/ProyectoHospitalApp/static/js/main.89971ac3.js",
+    "static/js/488.42a5e9fd.chunk.js": "/ProyectoHospitalApp/static/js/488.42a5e9fd.chunk.js",
+    "static/media/logo.svg": "/ProyectoHospitalApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ProyectoHospitalApp/index.html",
+    "main.f855e6bc.css.map": "/ProyectoHospitalApp/static/css/main.f855e6bc.css.map",
+    "main.89971ac3.js.map": "/ProyectoHospitalApp/static/js/main.89971ac3.js.map",
+    "488.42a5e9fd.chunk.js.map": "/ProyectoHospitalApp/static/js/488.42a5e9fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.89971ac3.js"
+  ]
+}
